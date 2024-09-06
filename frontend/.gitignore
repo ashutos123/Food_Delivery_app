@@ -18,3 +18,29 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+
+
+# environment variables
+PORT = 4000
+NODE_ENV = DEVELOPMENT
+
+DB_LOCAL_URI = mongodb://127.0.0.1:27017/Internship
+
+JWT_SECRET=my-jwt-super-secret-long-key
+JWT_EXPIRES_TIME=90
+
+CLOUDINARY_CLOUD_NAME=dmmtw0gbd
+CLOUDINARY_API_KEY=734584247761724
+CLOUDINARY_API_SECRET=oaiBHa3fA-SmTyfWgxfvI6oEt4c
+
+EMAIL_USERNAME=f376e31a90584e
+EMAIL_PASSWORD=8de3b494597dab
+EMAIL_HOST=sandbox.smtp.mailtrap.io
+EMAIL_PORT=25
+EMAIL_FROM=
+
+FRONTEND_URL="http://localhost:3000"
+
+STRIPE_SECRET_KEY=sk_test_51Ph7yJIxvhmc5GK3jGmGWd0uhgZyjLf6sY4bW1rG5tZrUyXdonFXtQqv91tjBsdnW3a4l10djqPYo8XbVsuCnC3W00ojUxrQYv
+STRIPE_API_KEY=pk_test_51Ph7yJIxvhmc5GK3vOb0XTekATsbqSstW2aM2Wb3yCtQAnqP77Oi5bfwfdljEW4watahRo7FwlRkXQHHDmEU0iyc00groM0n57
